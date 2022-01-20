@@ -1,8 +1,10 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
+test("renders latitude and longitude input", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const latLabel = screen.getByLabelText(/Latitude/i);
+  const lngLabel = screen.getByLabelText(/Longitude/i);
+  expect(latLabel).toBeInTheDocument();
+  expect(lngLabel).toBeInTheDocument();
 });
