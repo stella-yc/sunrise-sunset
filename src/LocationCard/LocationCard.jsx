@@ -19,7 +19,7 @@ const LocationCard = ({ addLocation, errorMessage }) => {
   return (
     <form className="location-card" onSubmit={handleSubmit}>
       <h2>Add a new location</h2>
-      <label for="lat" className="location-card__label">
+      <label htmlFor="lat" className="location-card__label">
         <span>Latitude</span>
         <input
           type="number"
@@ -33,7 +33,7 @@ const LocationCard = ({ addLocation, errorMessage }) => {
           required
         />
       </label>
-      <label for="lng" className="location-card__label">
+      <label htmlFor="lng" className="location-card__label">
         <span>Longitude</span>
         <input
           type="number"

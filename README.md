@@ -9,3 +9,5 @@ If I had more time I would have:
 - added more unit tests
 - added more styling!
 - responsive design and different layouts for desktop vs mobile
+- more robust error handling and loading states
+- a progress bar
