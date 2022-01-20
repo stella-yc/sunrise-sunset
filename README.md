@@ -1,6 +1,6 @@
 # README
 
-This was created with Create React App.
+This was created with Create React App. `npm start`!
 
 I avoided using many dependencies, but if I did choose to add them they would probably include Sass (not married to it but its what I'm used to), a form library, axios or some other alternative to native fetch, a date library to support timezones, TypeScript if the app was larger and more complex, etc.
 
